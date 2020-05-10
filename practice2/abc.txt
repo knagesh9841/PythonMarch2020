@@ -1,0 +1,4 @@
+Nagesh Mahadev Kadam
+This is the write command
+It allows us to write in a particular file
+This is Appending
