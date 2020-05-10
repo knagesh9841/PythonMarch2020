@@ -1,4 +1,4 @@
-# input Function always return str
+# input Function always return str so we need to convert it into required DataType
 
 a = int(input("Enter First Number"))
 b = int(input("Enter Second Number"))
