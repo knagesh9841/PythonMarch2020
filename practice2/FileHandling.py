@@ -75,4 +75,21 @@ finally:
     FileObj.close()
     print("File is Closed")
 
+"""
+We can use with statement in Python such that we don’t have to close the file handler. The with statement 
+creates a context manager and it will automatically close the file handler for you when you are done with it.
+"""
+
+print("With statement")
+count = 0
+
+with open("abc.txt", "r") as readfile:
+    while True:
+        line = readfile.readline()
+        if not line:
+            break
+        line = line.strip()
+        line = line.strip()
+        print("Line{}: {}".format(count, line))
+        count += 1
 
