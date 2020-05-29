@@ -10,6 +10,9 @@ generator object or using the generator object in a “for in” loop.
 
 Yield suspend the execution of function (till next Yield)it won't terminate the execution of function like return
 
+When we have yield statement then we can not use return statement
+we cannot use both together
+
 """
 
 
