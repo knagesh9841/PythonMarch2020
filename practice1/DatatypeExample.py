@@ -121,3 +121,5 @@ print(id(b))
 
 print(a)
 print(b)
+
+print(not False)        # This will print True
