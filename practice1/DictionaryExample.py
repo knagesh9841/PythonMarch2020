@@ -50,6 +50,13 @@ for x, y in MyDict.items():
 for x in MyDict.keys():
     print(x)
 
+# We can set Different type of key and values in dictionary
+
+diifkeydict = {"brand": "Ford", 1: "Bappa"}
+
+for x in diifkeydict:
+    print("Values:- ", diifkeydict.get(x))
+
 # Check if Key Exists
 
 if "brand" in MyDict:
